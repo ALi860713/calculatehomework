@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(211, 211, 211);
+}
+div input{
+    width: 500px;
+    height: 45px;
+    margin: 0 auto;
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 170);
+    font-size: 30px;
+    color: #ffffff;
+}
+hr{
+    width: 520px;
+}
+img{
+    width: 30px;
+    height: 30px;
+    padding: 5px 0;
+}
+div#calculator{
+    background-color: aquamarine;
+    width: 600px;
+    height: 410px;
+    /* left: 50%; */
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+button{
+    width: 120px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    background: #ffffff;
+    font-size: 30px;
+}
+table{
+    margin: 0 auto;
+    padding: 5px;
+}
+#calculator table tbody tr td .operator{
+    background-color: rgb(236, 234, 234);
+}
+#calculator table tbody tr td button[name=clear]{
+    background-color: rgb(236, 236, 84);
+}
+#calculator table tbody tr td button[name=equal]{
+    background-color: rgb(253, 142, 101);
+}
